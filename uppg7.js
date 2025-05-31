@@ -1,4 +1,4 @@
-function uppg7(a, b) {
+function uppg7(a = 5, b = 10) {
    
     // skapa en funktion som tar in två tal som argument
     // funktionen ska returnera summan av talen
@@ -7,6 +7,6 @@ function uppg7(a, b) {
     return a + b;
  }
  
- console.log(uppg7(5, 10));
+console.log(uppg7());
 
 module.exports = { uppg7 };
